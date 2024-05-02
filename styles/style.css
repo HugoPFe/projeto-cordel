@@ -8,6 +8,10 @@
     margin: 0px;
 }
 
+html, body {
+    height: 100vh;
+}
+
 header {
     background-color: black;
     text-align: center;
@@ -35,7 +39,7 @@ a:hover {
 }
 
 main > section > p {
-    font: normal 4vw 'sriracha', cursive;
+    font: normal 4.5vw 'sriracha', cursive;
     margin: 50px;
     line-height: 2em;
 }
@@ -56,7 +60,7 @@ main > section.background > p {
 }
 
 section#flower {
-    background: url('../images/background001.jpg') no-repeat fixed center right;
+    background: url('../images/background001.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
